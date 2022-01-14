@@ -18,22 +18,22 @@ scrapy crawl gall-list
 ```
 # Details
 
-## mycrawler/spiders/dcinside_spider.py
+### mycrawler/spiders/dcinside_spider.py
 
 * Main Crawler
   크롤러가 정의된 부분
 
-## mycrawler/spiders/others
+### mycrawler/spiders/others
 
 * Sub or Testing Crawler
   연습용으로 만든 크롤러들로 무시하셔도 됩니다.
 
-## mycrawler/items.py
+### mycrawler/items.py
 
 * Item List
   아이템의 형식에 크롤링 데이터가 짜맞추어집니다.
 
-## mycrawler/pipelines.py
+### mycrawler/pipelines.py
 
 * Pipeline List
   크롤링 된 데이터가 로컬 저장소에 저장되는 경로를 지정해줍니다.
